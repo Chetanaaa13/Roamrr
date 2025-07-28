@@ -117,7 +117,7 @@ footer {
 function Home() {
   const handleClick = (e) => {
     e.preventDefault();
-    alert('Trip planner page coming soon!');
+    window.location.href = '/login';
   };
 
   return (
@@ -127,7 +127,7 @@ function Home() {
         <h1>Welcome to Roamr 🌍</h1>
         <p>Your smart travel planner – discover, plan, and save trips effortlessly.</p><br></br>
         <a href="#trip-planner" className="cta-button" onClick={handleClick}>
-          ✈ Start Planning
+          ✈ Get Started
         </a>
       </header>
 

@@ -36,7 +36,7 @@ const LoginRegister = () => {
       formData.loginPassword === storedUser.password
     ) {
       localStorage.setItem('isLoggedIn', 'true');
-      window.location.href = '/home';
+      window.location.href = '/dashboard';
     } else {
       alert('⚠ Invalid username or password.');
     }
